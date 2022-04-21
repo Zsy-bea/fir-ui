@@ -1,23 +1,20 @@
 # fir-ui
 
-## Project setup
+## 安装组件库
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm add fir-lib-ui
 ```
 
-### Compiles and minifies for production
+### 全局导入
 ```
-npm run build
+import FirUI from 'fir-lib-ui'
+import 'fir-lib-ui/dist/fir-ui.css'
+Vue.use(FirUI)
 ```
 
-### Lints and fixes files
+### 使用
 ```
-npm run lint
+<fir-button type="danger" circle>拆</fir-button>
 ```
 
 ### Customize configuration
